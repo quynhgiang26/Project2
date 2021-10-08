@@ -10,8 +10,8 @@
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-315dp">
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-97dp">
 
         <TableRow
             android:layout_width="match_parent"
