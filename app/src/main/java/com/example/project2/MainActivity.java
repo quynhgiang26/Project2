@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    private void add2Number( {
+    private void add2Number() {
         String str = this.editTextTextPersonName.getText().toString();
         String str2 = this.editTextTextPersonName2.getText().toString();
         try {
