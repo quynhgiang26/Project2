@@ -24,4 +24,44 @@
             android:layout_height="34dp"
             android:text="Snack" />
     </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kem"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dâu"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sữa"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dừa"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <Button
+        android:id="@+id/buttonKetqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ket qua"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="650dp" />
 </android.support.constraint.ConstraintLayout>
