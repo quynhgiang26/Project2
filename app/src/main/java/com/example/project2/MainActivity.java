@@ -1,11 +1,17 @@
 package com.example.project2;
 
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.ListView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 //    private EditText editTextTextPersonName;
 //    private EditText editTextTextPersonName2;
 //    private Button button;
+/*
 
     private CheckBox checkBoxAll;
     private CheckBox checkBoxDau;
@@ -20,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox checkBoxDua;
 
     private Button buttonShowKetqua;
+*/
 
 
     @Override
@@ -27,7 +35,34 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        this.checkBoxAll = (CheckBox) this.findViewById(R.id.checkBoxAll);
+        ListView listView = (ListView)findViewById(R.id.listView);
+
+        UserAccount tom = new UserAccount("Tom","admin");
+        UserAccount jerry = new UserAccount("Jerry", "user");
+        UserAccount donald = new UserAccount("Donald", "guest", false);
+
+        UserAccount[] users = new UserAccount[]{to,, jerry,donald}
+
+        ArrayAdapter<UserAccount>arrayAdapter= new ArrayAdapter<UserAccount>(this, android.R.layout.simple_list_item_1,users);
+
+        listView.setAdapter(arrayAdapter);
+      /*  public boolean isEmailValid(CharSequence email){
+            return Patterns.EMAIL_ADDRESS.matcher(email).matches();
+        }*/
+
+       /* LinearLayout linearLayout =  (LinearLayout) findViewById(R.id.linearlayout);
+        //create a EditText
+        EditText editText = new EditText(this);
+        editText.setHint("Subject");
+        linearLayout.addView(editText);
+
+        //Set Text
+        editText.setText("Some Text");
+
+        //Get Text
+        String text = editText.getText().toString();*/
+
+       /* this.checkBoxAll = (CheckBox) this.findViewById(R.id.checkBoxAll);
         this.checkBoxDau = (CheckBox) this.findViewById(R.id.checkBoxDau);
         this.checkBoxSua = (CheckBox) this.findViewById(R.id.checkBoxSua);
         this.checkBoxDua = (CheckBox) this.findViewById(R.id.checkBoxDua);
@@ -78,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         this.checkBoxDau.setChecked(isChecked);
         this.checkBoxSua.setChecked(isChecked);
         this.checkBoxDua.setChecked(isChecked);
-    }
+    }*/
 
 //        this.editTextTextPersonName = (EditText)this.findViewById(R.id.editTextTextPersonName);
 //        this.editTextTextPersonName2 = (EditText)this.findViewById(R.id.editTextTextPersonName2);
