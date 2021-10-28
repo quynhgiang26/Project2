@@ -10,23 +10,23 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.project2.databinding.Activity2Binding;
+import com.example.project2.databinding.ActivityReceiveMessageBinding;
 
-public class Activity2 extends AppCompatActivity {
+public class ReceiveMessageActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
-    private Activity2Binding binding;
+    private ActivityReceiveMessageBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = Activity2Binding.inflate(getLayoutInflater());
+        binding = ActivityReceiveMessageBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_2);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_receive_message);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
@@ -41,7 +41,7 @@ public class Activity2 extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_2);
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_receive_message);
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }

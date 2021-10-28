@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project2">
         <activity
-            android:name=".FrameLayoutExample"
+            android:name=".ReceiveMessageActivity"
+            android:exported="false"
+            android:label="@string/title_activity_receive_message"
+            android:theme="@style/Theme.Project2.NoActionBar" />
+        <activity
+            android:name=".CreateMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lab2bt1"
             android:exported="true" />
         <activity
-            android:name=".Activity2"
-            android:exported="true"
-            android:label="@string/title_activity_2"
-            android:theme="@style/Theme.Project2.NoActionBar" />
+            android:name=".ListviewsimplelistitemcheckedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FrameLayoutExample"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

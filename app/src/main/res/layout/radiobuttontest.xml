@@ -1,88 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="209dp"
-        android:layout_height="19dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="24dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="200dp"
-        android:layout_height="28dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="86dp" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="233dp"
-        android:layout_height="28dp"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="247dp" />
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="143dp" >
-
-        <RadioButton
-            android:id="@+id/radioButton"
-            android:layout_width="188dp"
-            android:layout_height="wrap_content"
-            android:text="RadioButton" />
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="108dp"
-            android:layout_height="24dp"
-            android:text="RadioButton" />
-
-    </RadioGroup>
-
-    <RadioGroup
-        android:layout_width="372dp"
-        android:layout_height="162dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="316dp">
-
-        <RadioButton
-            android:id="@+id/radioButton5"
-            android:layout_width="match_parent"
-            android:layout_height="52dp"
-            android:text="RadioButton" />
-
-        <RadioButton
-            android:id="@+id/radioButton8"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="RadioButton" />
-
-        <RadioButton
-            android:id="@+id/radioButton9"
-            android:layout_width="match_parent"
-            android:layout_height="58dp"
-            android:text="RadioButton" />
-
-    </RadioGroup>
-
-    <TextView
         android:id="@+id/textView11"
-        android:layout_width="327dp"
-        android:layout_height="139dp"
+        android:layout_width="391dp"
+        android:layout_height="145dp"
         android:autoLink="email|phone|map|web"
-        android:textColorLink="#FF0000"
         android:text="Contact: +1-1111222233, example@gmail.com. http://abc.com, 620 Eighth Avenue New York, NY 10018"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="534dp" />
+        android:textColorLink="#FF0000" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

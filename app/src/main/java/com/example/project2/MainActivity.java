@@ -1,5 +1,6 @@
 package com.example.project2;
 
+import android.content.Intent;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,17 +36,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ListView listView = (ListView)findViewById(R.id.listView);
+
+
+
+        /*ListView listView = (ListView)findViewById(R.id.listView);
 
         UserAccount tom = new UserAccount("Tom","admin");
         UserAccount jerry = new UserAccount("Jerry", "user");
         UserAccount donald = new UserAccount("Donald", "guest", false);
 
-        UserAccount[] users = new UserAccount[]{to,, jerry,donald}
+        UserAccount[] users = new UserAccount[]{tom, jerry,donald}
 
         ArrayAdapter<UserAccount>arrayAdapter= new ArrayAdapter<UserAccount>(this, android.R.layout.simple_list_item_1,users);
 
-        listView.setAdapter(arrayAdapter);
+        listView.setAdapter(arrayAdapter);*/
+
       /*  public boolean isEmailValid(CharSequence email){
             return Patterns.EMAIL_ADDRESS.matcher(email).matches();
         }*/
