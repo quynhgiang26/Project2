@@ -23,9 +23,9 @@ public class Lab2bt1 extends AppCompatActivity {
         buttonTong = (Button) findViewById(R.id.btnTong);
         buttonHieu = (Button) findViewById(R.id.btnHieu);
         buttonTich = (Button) findViewById(R.id.btnTich);
-        buttonThuong = (Button) findViewById(R.id.btnThuong);
+        /*buttonThuong = (Button) findViewById(R.id.btnThuong);
         buttonUCLN = (Button) findViewById(R.id.btnUCLN);
-        buttonThoat = (Button) findViewById(R.id.btnThoat);
+        buttonThoat = (Button) findViewById(R.id.btnThoat);*/
 
         buttonTong.setOnClickListener(new View.OnClickListener() {
             @Override
