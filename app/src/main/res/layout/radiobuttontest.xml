@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="391dp"
+        android:layout_height="145dp"
+        android:autoLink="email|phone|map|web"
+        android:text="Contact: +1-1111222233, example@gmail.com. http://abc.com, 620 Eighth Avenue New York, NY 10018"
+        android:textColorLink="#FF0000" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrameLayoutExample">
+
+    <FrameLayout
+        android:layout_width="369dp"
+        android:layout_height="280dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="384dp"
+            android:layout_height="337dp"
+            app:srcCompat="@drawable/snack" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="134dp"
+            android:layout_height="34dp"
+            android:text="Snack" />
+    </FrameLayout>
+
+    <CheckBox
+        android:id="@+id/checkBoxAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kem" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dâu" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sữa" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dừa" />
+
+    <Button
+        android:id="@+id/buttonKetqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ket qua" />
+</TableLayout>

@@ -24,7 +24,63 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="150dp"
-        android:text="say_hello"
-        />
+        android:text="say_hello" />
+
+    <EditText
+        android:id="@+id/txtSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textUri|textShortMessage|textAutoCorrect|text"
+        android:text="Name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_password"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_password2"
+        android:hint="Number Password"
+        android:inputType="numberPassword"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_text1"
+        android:background="#F1FDDC"
+        android:layout_gravity="top|left"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:text="0123654789"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_birhtday"
+        android:hint="dd-MM-yyyy"
+        android:inputType="date"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:text="I am an EditText"
+        android:textColorHighlight="#24AC55"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myEditText"
+        android:hint="Hint"
+        android:focusable="false"
+        android:clickable="false"
+        android:cursorVisible="false"/>
 
 </LinearLayout>
